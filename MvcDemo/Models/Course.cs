@@ -10,5 +10,6 @@ namespace MvcDemo.Models
         public int CourseId { get; set; }
         public string CourseName { get; set; }
         public int TotalCredits { get; set; }
+        public ICollection<Enrollment> Enrollments { get; set; }
     }
 }
