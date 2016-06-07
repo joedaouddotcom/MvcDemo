@@ -23,6 +23,7 @@ namespace MvcDemo.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
+            ViewBag.ijk = "Hello this is the use of view bag.";
 
             return View();
         }
